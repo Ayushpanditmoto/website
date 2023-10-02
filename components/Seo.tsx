@@ -27,3 +27,11 @@ const Seo: React.FC<SeoProps> = ({ title, description, image, url }) => {
 };
 
 export default Seo;
+
+//add default props
+Seo.defaultProps = {
+  title: "Would You",
+  description: "Would You",
+  image: "https://i.imgur.com/OPQaiVa.png",
+  url: "https://wouldyoubot.gg",
+};
